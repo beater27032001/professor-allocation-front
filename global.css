@@ -5,6 +5,7 @@ header,footer{
 
 main {
   height: 80vh;
+  max-height: 80vh;
 }
 
 footer {
@@ -13,13 +14,6 @@ footer {
   align-items: center;
   color: white;
   background-color: rgb(33,37,41);
-  margin-bottom: auto;
-}
-
-h1{
-  margin-bottom: 30px;
-  margin-left: 10px ;
-  margin-top: 20px;
 }
 
 table{
@@ -27,7 +21,17 @@ table{
   border-color: black !important;
 }
 
+tbody > tr > td:last-child{
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
 tbody, td, th, tr {
   border: 0 solid;
   border-color: black;
+}
+
+.title{
+  padding: 1rem 0;
 }
