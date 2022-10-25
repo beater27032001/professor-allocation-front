@@ -90,14 +90,35 @@
             </div>
           </div>
         </div>
-        <!--
         <div class="modal-body">
           <div class="input-group">
-            <span class="input-group-text">Cpf:</span>
-            <input type="text" id="input-cpf" aria-label="Cpf" class="form-control">
+            <span class="input-group-text">Dia da Semana:</span>
+            <select class="form-select" id="input-day" aria-label="Dia da Semana">
+              <option value="MONDAY" selected >Segunda-feira</option>
+              <option value="TUESDAY" >Terça-feira</option>
+              <option value="WEDNESDAY" >Quarta-feira</option>
+              <option value="THURSDAT" >Quinta-feira</option>
+              <option value="FRIDAY" >Sexta-feira</option>
+              <option value="SATURDAY" >Sábado</option>
+              <option value="SUNDAY" >Domingo</option>
+            </select>
+            <div class="invalid-feedback">
+              Por favor, escolha um dia da semana.
+            </div>
           </div>
-        </div>-->
-        
+        </div>
+        <div class="modal-body">
+          <div class="input-group">
+            <span class="input-group-text">Hora Inicial:</span>
+            <input type="time" id="input-start" aria-label="Hora Inicial" class="form-control">
+          </div>
+        </div>
+        <div class="modal-body">
+          <div class="input-group">
+            <span class="input-group-text">Hora Final</span>
+            <input type="time" id="input-end" aria-label="Hora Final" class="form-control">
+          </div>
+        </div>
 
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">

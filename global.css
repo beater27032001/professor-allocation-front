@@ -19,17 +19,13 @@ footer {
 table{
   border: 1px solid;
   border-color: black !important;
+  border-collapse: collapse;
 }
 
 tbody > tr > td:last-child{
   display: flex;
   justify-content: flex-end;
   gap: 1rem;
-}
-
-tbody, td, th, tr {
-  border: 0 solid;
-  border-color: black;
 }
 
 .title{
