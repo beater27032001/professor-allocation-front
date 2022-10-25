@@ -1,6 +1,6 @@
 .content-table {
   overflow: auto;
-  height: 85%;
+  height: calc(100% - 22vh);
 }
 
 .button-ghost {
