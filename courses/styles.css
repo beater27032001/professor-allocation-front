@@ -1,0 +1,28 @@
+.content-table {
+  overflow: auto;
+  height: 85%;
+}
+
+.button-ghost {
+  background-color: transparent !important;
+  border-color: transparent !important;
+
+  color: #dc3545;
+}
+
+.button-ghost > img {
+  width: 24px;
+  height: 24px;
+}
+
+.button-ghost:hover {
+  background-color: #bb2d3b50 !important;
+}
+
+#addbtn {
+  margin-bottom: 10px;
+}
+
+button{
+  align-items: center;
+}

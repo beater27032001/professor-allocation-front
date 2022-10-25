@@ -1,0 +1,23 @@
+header, footer {
+  height: 10vh;
+  width: 100%;
+}
+
+main {
+  height: 80vh;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(33,37,41);
+}
+
+h1{
+  margin-bottom: 30px;
+  margin-left: 10px ;
+  margin-top: 20px;
+}
+
