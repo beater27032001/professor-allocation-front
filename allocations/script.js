@@ -171,19 +171,19 @@ function showTable() {
 async function abrirModalCriar() {
     actualId = 0;
     document.getElementById("formAllocationLabel").textContent = "Adicionar Alocação";
-        inputName.value = "0";
-        inputCourse.value = "0";
-        inputDay.value = "MONDAY";
-        inputStart.value = "";
-        inputEnd.value = "";
+    inputName.value = "0";
+    inputCourse.value = "0";
+    inputDay.value = "MONDAY";
+    inputStart.value = "";
+    inputEnd.value = "";
     setErrorSelect(false);
 }
 
 async function abrirModalAtualizar(allocation) {
     actualId = allocation.id;
     document.getElementById("formAllocationLabel").textContent = "Editar Alocação";
-    inputName.value = allocation.professor.name;
-    inputCourse.value = allocation.course.name;
+    inputName.value = allocation.professor.id;
+    inputCourse.value = allocation.course.id;
     inputDay.value = allocation.day;
     inputStart.value = allocation.start;
     inputEnd.value = allocation.end;
